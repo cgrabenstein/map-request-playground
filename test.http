@@ -1,0 +1,19 @@
+POST localhost:8000/non-constructor
+Content-Type: application/json
+Accept: application/json
+
+{
+  "stringVal": "ONE",
+  "stringVals": ["ONE", "TWO"]
+}
+
+###
+POST localhost:8000/constructor
+Content-Type: application/json
+Accept: application/json
+
+{
+  "intVal": 1,
+  "stringVal": "ONE",
+  "stringVals": ["ONE", "TWO"]
+}
